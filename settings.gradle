@@ -1,0 +1,2 @@
+rootProject.name='Webviewtest'
+include ':app'
