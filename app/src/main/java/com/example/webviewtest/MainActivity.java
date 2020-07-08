@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // 사용자의 웹뷰에 띄울 웹페이지 주소
-        mWebView.loadUrl("https://allinpdf.com/kr/convert/fileconvert/fileconvert-start-image");
+        mWebView.loadUrl("https://e8b2e525c708.ngrok.io");
     }
 
     // 뒤로가기 구현
@@ -264,7 +264,7 @@ public class MainActivity extends AppCompatActivity {
             pickIntent.setType(MediaStore.Images.Media.CONTENT_TYPE);
             pickIntent.setData(MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
 
-            String pickTitle = "사진 가져올 방법을 선택하세요.";
+            String pickTitle = "사진을 업로드 할 방법을 선택하세요.";
             Intent chooserIntent = Intent.createChooser(pickIntent, pickTitle);
 
             // 카메라 intent 포함시키기..
